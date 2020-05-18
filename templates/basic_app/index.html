@@ -1,0 +1,8 @@
+{% extends "basic_app/base.html" %}
+{% load media %}
+{% block body_block %}
+    <div class="jumbotron">
+        <h1>Django level five</h1>
+        <img src="{% media "images/rango.jpg" %}" alt="Picture of Rango" />
+    </div>
+{% endblock %}
